@@ -1,0 +1,442 @@
+$danger: #D5B4B4;
+$warning: #E4D0D0;
+$info: #F5EBEB;
+$primary: hsl(0, 39%, 35%);
+// $dark: #a5a5a4;
+
+$success:#683B2B;
+$light:#ecdfcc;
+$dark:#FAF6F2;
+
+
+body {
+  font-family: work sans, sans-serif;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#createProductBtn{
+  background-color: #683B2B;
+  color: white;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+.hero {
+  height: 540px;
+  width: 900px;
+}
+
+.back {
+  background-image: url('../../public/Images/b9.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.b{
+    background-image: url('../../public/Images/com.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+.logo{
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+#decor{
+  padding-top: 15px;
+}
+
+.rr {
+  border-radius: 0px 0px 500px 500px;
+  position: absolute;
+  left: 278px;
+  width: 290px;
+  border: 2px solid $success ;
+}
+
+.hr {
+   position: relative;
+   left: 100px;
+   top: 100px;
+   border-radius: 0px 0px 100px 0px;
+   border: 5px solid white ;
+  width: 250px;
+}
+
+.abv {
+  position: relative;
+  right: -10px;
+  top:50px ;
+}
+
+.tx {
+ font-size: 68px;
+}
+
+.pl {
+  position: relative;
+  right: 150px;
+}
+
+.shop {
+   border-radius: 50% 50% 50% 50%;
+   border: 3px solid $danger ;
+   padding: 60px 0px 0px 17px;
+   width: 200px;
+   height: 200px;
+}
+
+.productCard{
+  text-decoration:  none;
+}
+
+.round {
+  height: 532px;
+  width: 380px;
+  padding-left: 15px;
+  border-radius: 47% 47% 0 0;
+}
+
+.rsecond {
+  height: 420px;
+  width: 380px;
+  border-radius: 47% 47% 0 0;
+  border: hsl(0, 39%, 35%) solid 3px;
+}
+.contain {
+  position: relative;
+}
+
+.rthird{
+  height: 240px;
+  width: 240px;
+  border: hsl(0, 39%, 35%) solid 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 270px;
+  
+}
+
+.disc{
+  height: 420px;
+  width: 350px;
+  border: hsl(0, 39%, 35%) solid 1px;
+  border-radius:  0 0 47% 47%;
+  border-top: 0px;
+}
+
+.bor{
+  border: hsl(0, 39%, 35%) solid 1px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  height: 280px;
+}
+.rimg{
+  height: 240px;
+  width: 240px;
+  border: hsl(0, 39%, 35%) solid 3px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.baju{
+  position: relative;
+  bottom: 450px;
+  left: 520px;
+}
+
+.ourser{
+  background-color: $dark;
+  border-radius: 50% 50% 0 0;
+}
+
+.conrel{
+  position: relative;
+}
+
+.op{
+  opacity: 0.5;
+}
+
+.conabv{
+  position: absolute;
+  bottom: 470px;
+  left: 800px;
+}
+
+.img4{
+  height: 200px;
+  width: 200px;
+  // border: #683B2B solid 1px;
+  box-shadow: 40px 40px 40px #a5a5a4;
+}
+
+.com{
+  height: 400px;
+  width: 200px;
+}
+
+.vcom{
+  height: 200px;
+  width: 300px;
+}
+
+.redColor{
+  color: red;
+}
+
+.greenColor{
+  color: green;
+}
+
+.ser{
+  width: 100%;
+  height: 500px;
+  background-color: $light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carimg{
+  height: 450px;
+  width: 400px;
+}
+
+.fpro{
+  font-size: 10px;
+}
+
+.fcar{
+  font-size: 12px;
+}
+
+.wcon{
+  width: 100px;
+  height: 100px;
+}
+
+.decor{
+  text-decoration: none !important;
+}
+
+.mar{
+  margin-left: 600px;
+}
+
+.mview{
+  margin-left: 600px;
+}
+
+.padsum{
+  padding-left: 130px;
+}
+
+.padship{
+  padding-left: 90px;
+}
+
+.padtotal{
+  padding-left: 160px;
+}
+
+.padgst{
+  padding-left: 170px;
+}
+
+.wid{
+  width: 200px;
+  height: 150px;
+}
+
+.btnship{
+  margin-left: 120px;
+}
+
+.flx{
+  display: flex !important;
+}
+
+.speedDial{
+    position: fixed;
+    top: 55px;
+    left: 93%;
+}
+
+.speedDialIcon{
+  width: 100px ;
+  height: 100px ;
+}
+
+.MultiStepConnector-line{
+  display: none !important;
+}
+
+.MultiStepConnector-root{
+  height: 1px;
+  background-color: #a5a5a4;
+}
+
+.MultiStepConnector-active,
+.MultiStepConnector-completed{
+  background-color: #683B2B;
+}
+
+
+p {
+  font-family: work sans, sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.navbar-brand {
+  font-size: 18px !important;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 18px !important;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: white !important;
+}
+
+
+.bg-hero {
+  position: relative;
+}
+
+.bg-hero:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 24%;
+  left: 8% !important;
+  text-align: left !important;
+}
+
+.size {
+  width: 50px;
+  height: 50px;
+  padding: 11px;
+  background-color: white;
+  border-radius: 50%;
+  color: #000;
+}
+
+.carousel-control-next {
+  top: 65% !important;
+  right: 5% !important;
+  // bottom: 20% !important;
+}
+
+.carousel-control-prev {
+  left: 75% !important;
+  top: 65% !important;
+}
+
+
+
+// register page
+
+.good {
+  background-image: url('../../public/Images/di1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
+  position: absolute;
+  left: 170px;
+}
+
+
+.crr{
+  position: relative;
+  left: 660px;
+  top: 70px;
+  margin-bottom: 200px;
+}
+
+.cr {
+  position: relative;
+  left: 660px;
+  top: 70px;
+  margin-bottom: 20px;
+}
+
+// .caround{
+//   border: 1px solid black;
+//   border-radius: 50% ;
+// }
+
+// // login page
+
+.lo {
+  background-image: url('../../public/Images/ree1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
+  position: absolute;
+  left: 270px;
+}
+
+.lr {
+  position: relative;
+  top: 70px;
+  margin-bottom: 170px;
+}
+
+.fp {
+  padding-left: 650px;
+}
+
+// footer
+
+.endd {
+  list-style: none;
+  line-height: 40px;
+}
+
+.straight {
+  border-left: 1px solid white;
+}
+
+
+// // contact
+
+.ext {
+  position: absolute;
+  left: 400px;
+  top: 227px;
+}
+
+.con {
+  position: relative;
+  background-image: url('../../public/Images/i8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 100px;
+  top: 325px;
+}
